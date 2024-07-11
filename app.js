@@ -1,4 +1,4 @@
-/*let numeroSecreto = 0;
+let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
 let numeroMaximo = 10
@@ -73,24 +73,4 @@ function reiniciarJuego (){
 }
 
 condicionesIniciales();
-console.log(numeroSecreto);*/
-
-let lenguagesDeProgramacion = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
-console.log(lenguagesDeProgramacion);
-
-lenguagesDeProgramacion.push('Java', 'Ruby','GoLang');
-
-
-function mostrarLista (){
-    console.log(lenguagesDeProgramacion);
-}
-
-mostrarLista();
-
-function mostrarLenguagesReversoSeparadamente() {
-    for (let i = lenguagesDeProgramacion.length - 1; i >= 0; i--) {
-      console.log(lenguagesDeProgramacion[i]);
-    }
-  }
-  
-  mostrarLenguagesReversoSeparadamente();
+console.log(numeroSecreto);
